@@ -1,0 +1,11 @@
+# 依赖清单
+# Breakup Recovery Squad
+# 核心框架
+streamlit==1.44.1
+agno>=2.2.10
+
+# 环境变量
+python-dotenv>=1.0.0
+
+# RAG 向量检索（约 15MB，首次运行自动下载 ONNX embedding 模型）
+chromadb>=0.4.0

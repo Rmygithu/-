@@ -1,0 +1,28 @@
+# 心愈 AI · 全局主题配置
+# 暖粉/珊瑚色调，贴合情绪疗愈产品气质
+
+[theme]
+# 主色：柔和珊瑚粉，温暖不刺眼
+primaryColor = "#E8637A"
+# 页面背景：浅米白，降低视觉疲劳
+backgroundColor = "#FFF8F5"
+# 侧边栏/容器背景：略深米白
+secondaryBackgroundColor = "#FFF0EC"
+# 正文颜色：深灰，避免纯黑刺眼
+textColor = "#3D2B2E"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+showSidebarNavigation = false
+
+[runner]
+# 宽屏布局
+fastReruns = true
